@@ -1,0 +1,152 @@
+/* controle.css */
+
+body {
+	margin: 0;
+    height: 100%;
+	font: 100%/1.5 Verdana, sans-serif;
+	overflow: hidden; 
+}
+
+#container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: block;
+	background: #fff url('../img/bg3.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#menuEsq {
+	margin: 0;
+	position: relative;
+	width: 30%;
+	float: left;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	padding-top: 1%;
+	word-wrap: break-word;
+}
+
+#menuEsq img {
+	width: 50%;
+	height: auto;
+}
+
+#content {
+	margin: 4%;
+	position: relative;
+	width: 58%;
+	float: left;
+	height: 87%;
+	padding: 0;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	padding-top: 1%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	word-wrap: break-word;
+	font-size: 0.8em;
+	padding: 2%;
+}
+
+/* ------------------------------ 
+		MENU
+------------------------------ */
+.menuEsq {
+	list-style: none;
+	padding: 0;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+.menuEsq li {
+	background-color: #47A3FF;
+	cursor: pointer;
+	padding: 1.0em;
+	line-height: 1.0em;
+	font-size: 0.8em;
+}
+.menuEsq li:hover {
+	background-color: #E43A36;
+}
+.menuEsq a {
+	text-decoration: none;
+	color: #fff;
+}
+.menuEsq a:hover {
+	text-decoration: underline;
+}
+
+/* --------------------------------
+		LISTAS 
+--------------------------------- */
+
+.lista {
+	list-style: none;
+	margin: 0;
+	display: inline;
+	text-align: center;
+	position: relative;
+}
+
+.lista li {
+	margin: 0;
+	width: 34%;
+	position: relative;
+	display: inline-block;
+	min-height: 210px;
+	padding: 2%;
+	background: #000;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	margin-top: 2%;
+	overflow: hidden;
+	cursor: pointer;
+	word-wrap: breakline;
+}
+
+.lista h1 {
+	font-family: sans-serif;
+	line-height: 1.0em;
+	font-size: 1.0em;
+	letter-spacing: 4px;
+	margin: 0;
+	word-wrap: break-word;
+}
+
+.lista p {
+	margin: 2%;
+	line-height: 1.0em;
+	font-size: 0.6em;
+}
+
+.lista a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.lista span:hover {
+	text-decoration: underline;
+}
+
+.lista img {
+	width: 100px;
+	height: 100px;
+}
+
+.lista .del {
+	color: #fff;
+	background-color: #f00;
+	padding: 2px;
+	border-radius: 2px;
+}
+.lista .del:hover {
+	text-decoration: underline;
+}

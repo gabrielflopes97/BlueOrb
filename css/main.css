@@ -1,0 +1,274 @@
+/* main.css - infoservice */
+
+
+/**************** HEADER ***************************/
+#header {
+	position: fixed;
+	height: 8%;
+	width: 100%;
+	padding-top: 1%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	z-index: 5;
+}
+#header .dir70 {
+	width: 50%;
+	margin-left: 20%;
+	line-height: 1.0em;
+	font-size: 1.0em;
+}
+
+.formLoginUp {
+	width: 25%;
+	height: 30px;
+	margin: 0.2em;
+	border-radius: 2px;
+	border: 0;
+	/*box-shadow: #000 1px 1px;*/
+	font-family: Helvetica, Arial;
+	font-size: 1.0em;
+}
+
+/***************** ESTILO DO DESIGN ****************/
+h2 {
+	font-size: 1.8em;
+	font-family: Verdana, sans-serif;
+}
+
+.panel {
+    position: relative;
+    min-height: 110%;
+}
+
+.panel-fixed {
+}
+
+.panel-inner {
+    padding: 1em;
+    padding-top: 6%;
+    width: 100%;
+    text-align: center;
+}
+
+.panel-fixed .panel-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/****************  PRIMEIRA PAGINA  *****************/
+.panel-one { 
+    background: #fff url('../img/bg3.jpg'); 
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+#divLogin {
+	margin-top: 5%;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+	width: 70%;
+}
+
+.formLogin {
+	width: 70%;
+	height: 50px;
+	margin: 0.5em;
+	border-radius: 2px;
+	border: 0;
+	/*box-shadow: #000 1px 1px;*/
+	font-family: Helvetica, Arial;
+	font-size: 1.4em;
+}
+
+.btn {
+	color: #fff;
+	background: #0C78CF;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: #0C78CF;
+	background: #fff;
+}
+
+.logo {
+	margin: 0;
+	position: relative;
+	width: 20%;
+	height: auto;
+}
+
+.panel-one h6 {
+	font-family: sans-serif;
+	font-size: 0.7em;
+	color: #c2c2c2;
+	padding: 0;
+	margin: 0;
+}
+
+.panel-one #mensagem {
+	width: 70%;
+	position: fixed;
+	height: 10%;
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom: 10%;
+	color: #fff;
+	margin-left: 13%;
+	display: block;
+	cursor: pointer;
+	z-index: 9999;
+}
+
+/****************  SEGUNDA PAGINA  *****************/
+.panel-two {
+    background: #fff url('../img/bg.jpg'); 
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.limite {
+	margin: 0 auto;
+	padding: 2%;
+	width: 95%;
+	position: relative;
+	border-radius: 10px;
+}
+
+/* MODIFICANDO O SCROLLBAR */
+.limite ::-webkit-scrollbar {
+    width: 12px;
+}
+.limite ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.limite ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.limite ::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.4); 
+}
+
+.lista {
+	margin: 0;
+	position: relative;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	white-space: nowrap;
+	overflow: auto;
+}
+
+.lista li {
+	margin-top: 2%;
+	margin-left: 2%;
+	padding: 2%;
+	height: 210px;
+	display: inline-block;	
+	background: #000;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	overflow: hidden;
+	cursor: pointer;
+	word-wrap: break-word;
+}
+
+.lista h1 {
+	font-family: sans-serif;
+	line-height: 1.0em;
+	font-size: 0.8em;
+	letter-spacing: 4px;
+	margin: 0;
+	word-wrap: break-word;
+}
+
+.lista p {
+	margin: 2%;
+	line-height: 1.0em;
+	font-size: 0.6em;
+}
+
+.lista a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.lista span:hover {
+	text-decoration: underline;
+}
+
+.lista img {
+	width: 100px;
+	height: 100px;
+}
+
+/****************  TERCEIRA PAGINA  *****************/
+.panel-three {
+    background: #fff url('../img/bg4.jpg'); 
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 3;
+}
+
+.equipe {
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+}
+
+/****************  QUARTA PAGINA  *****************/
+.panel-four {
+    background: #fff url('../img/bg4.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 4;
+}
+
+/****************  QUINTA PAGINA  *****************/
+.panel-five {
+    background: #fff url('../img/bg4.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.panel-five img {
+	width: 50px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.panel-five a {
+	text-decoration: none;
+}
+
+/********************************
+     Básico/Outros 
+********************************/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body { 
+	font: 100%/1.5 Arial, sans-serif;
+	overflow-x: hidden; 
+}
+h1, h2, h3 { margin-bottom: 1.5em; font-weight: bold; }
+.esq30 { width: 30%; position: relative; float: left; }
+.dir70 { width: 70%; position: relative; float: left; }
+.clear { clear: both; }

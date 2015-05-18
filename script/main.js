@@ -22,6 +22,20 @@ function tirarAtencao(sender) {
     });
 }
 
+//********** VOLTAR PARA O TOPO *********************//
+$(function(){
+    $('.topo').click(function(){
+         $('html,body').animate({scrollTop: 0},'slow');
+    });
+});
+// **************************************************//
+
+//********** CHAMANDO LAYER *********************//
+$(".gambirex").click(function(){
+    $(".gambirrex2").show();
+});
+// **************************************************//
+
 // ****************************************************
 // JAVASCRIPT PARA MANTER O DESIGN COM FOMRATO CASCATA 
 // ****************************************************

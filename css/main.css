@@ -59,7 +59,7 @@ h2 {
 
 /****************  PRIMEIRA PAGINA  *****************/
 .panel-one { 
-    background: #fff url('../img/bg3.jpg'); 
+    background: #fff url('http://cdn01.wallconvert.com/_media/conv/1/22/217671-gradient-light-background.jpg'); 
 	background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 1;
@@ -272,3 +272,5 @@ h1, h2, h3 { margin-bottom: 1.5em; font-weight: bold; }
 .esq30 { width: 30%; position: relative; float: left; }
 .dir70 { width: 70%; position: relative; float: left; }
 .clear { clear: both; }
+
+

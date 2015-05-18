@@ -15,7 +15,7 @@
 		<meta http-equiv="Content Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="SHORTCUT ICON" href="img/logo.png">
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
 		<script type="text/javascript" src="script/main.js"></script>
@@ -25,7 +25,8 @@
 		<div class="black-overlay"></div>
 
 		<div id="header"> <!-- CABEÇALHO -->
-			<div class="esq30">Blue Orb Safe Solutions &copy;</div>
+
+			<div class="esq30"><img src="http://localhost:8080/BlueOrb/img/logo.png" style="width:7%;height:7%;"><div style="margin-top: -35px;margin-left: 215px;">Blue Orb Safe Solutions &copy;</div></div>
 			<div class="dir70">
 				<form action="index.php" method="post">
 		    		<input id="txtNome" class="formLoginUp" type="text" placeholder="Login" name="txtLogin" required />
@@ -63,7 +64,7 @@
 		<div class="panel panel-two"> <!-- SEGUNDA PAGINA -->
 		    <div class="panel-inner">
 		    	<h2>Principais Projetos</h2>
-		    	<hr width="10%" style="margin-top: -3%; border: solid 1px #000;" />
+		    	<hr width="10%" style="margin-top: -2%; border: solid 1px #000;" />
 		    	<p style="color: #fff;">
 		    		Alguns dos projetos já feitos pela Blue Orb Safe Solutions &copy;, junto a projetos próprios
 		    		dos membros da empresa. A ideia de um desenvolvedor equivale a ideia da empresa.
@@ -118,7 +119,9 @@ de seus clientes.
 		    </div>
 		</div>
 
-
+		<div style="width:100px;height:100px;background-color:#ccc;">
+			
+		</div>
 		<div class="panel panel-five"> <!-- QUINTA PAGINA -->
 		    <div class="panel-inner">
 		        <h2>Contato</h2>
@@ -134,8 +137,17 @@ de seus clientes.
 			        <b> blueorbsafesolutions@gmail.com </b> <br />
 			        Porto Alegre - RS
 		        </p>
+		        <b>FAÇA JA SEU ORÇAMENTO GRATUITO -></b><a class="gambirex">CLIQUE AQUI</a>
 
+		        <!-- O R Ç A M E N T O -->
+
+		        <div class="gambirrex2"style="width:100px;height:100px;background-color:#000;display:none;">
+		        	
+		        </div>
+
+				<img src="img\icones\voltarTopo.jpg" class="topo" style="float:right;width:70px;height:70px;bottom:0;margin-top:18%;">
 		    </div>
+
 		</div>
 
 	</body>

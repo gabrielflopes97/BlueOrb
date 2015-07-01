@@ -21,7 +21,12 @@ function tirarAtencao(sender) {
         'color' : '#fff'
     });
 }
+$(function(){
+$("#btnOrca").click(function(){
+    alert("dsadsa");
+});
 
+});
 // ****************************************************
 // JAVASCRIPT PARA MANTER O DESIGN COM FOMRATO CASCATA 
 // ****************************************************

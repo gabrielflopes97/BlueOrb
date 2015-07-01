@@ -29,7 +29,21 @@
 	font-family: Helvetica, Arial;
 	font-size: 1.0em;
 }
-
+#btnOrca{
+	width: 15%;
+	height: 30px;
+	border: 0;
+	float:right;
+	margin-top:-40px;
+	margin-right: 100px;
+	background-color: #ccc;
+	/*box-shadow: #000 1px 1px;*/
+	font-family: Helvetica, Arial;
+	font-size: 1.0em;
+}
+#btnOrca:hover{
+	background-color:#000;
+}
 /***************** ESTILO DO DESIGN ****************/
 h2 {
 	font-size: 1.8em;
@@ -42,6 +56,23 @@ h2 {
 }
 
 .panel-fixed {
+}
+
+.dev-site {
+    padding: 1em;
+    padding-top: 6%;
+    width: 100%;
+    text-align: center;
+}
+
+#btnOrca:hover{
+	background-color: #ccc;
+}
+
+.panel-fixed .dev-site {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .panel-inner {

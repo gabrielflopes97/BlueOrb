@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-
+<!-- 
 <?php
-	error_reporting(0);
-	header("Content-Type: text/html; charset=UTF-8", true);
-	include "classe/banco.php";
-	$banco = new Banco();
-	$banco->Conectar();
+	//error_reporting(0);
+	//header("Content-Type: text/html; charset=UTF-8", true);
+	//include "classe/banco.php";
+	//$banco = new Banco();
+	//$banco->Conectar();
 ?>
-
+ -->
 <html lang="pt/br">
 
 	<head>
@@ -50,13 +50,40 @@
 		    	</div>
 
 		    	<?php
-		    		if ($_POST['txtLogin'] && $_POST['txtSenha']) {
-		    			echo '<div id="mensagem" onclick="escondeMensagem()">';
-		    			$banco->Logar($_POST['txtLogin'], $_POST['txtSenha']);
-		    			echo '</div>';
-		    		}
+		    		// if ($_POST['txtLogin'] && $_POST['txtSenha']) {
+		    		// 	echo '<div id="mensagem" onclick="escondeMensagem()">';
+		    		// 	$banco->Logar($_POST['txtLogin'], $_POST['txtSenha']);
+		    		// 	echo '</div>';
+		    		// }
 		    	?>
 
+		    </div>
+		</div>
+
+		<div class="panel panel-dev" style="background-color:#f8f8f8;"> <!-- PAGINA DE DESENVOLVIMENTO -->
+		    <div class="dev-site2" style="position: fixed;
+    top: 100px;
+    left: 120px;">
+		    	<h2>Cria&ccedil;&atilde;o de Sites</h2>
+		    	<img src="http://williarts.com.br/wp-content/uploads/2015/05/tablet-phone-icon.png"style="width:200px;height:200px;">
+				<p style="width:250px;margin-left:0px;">A Blue Orb desenvolve sites com navegabilidade facilitada, usabilidade, excelência no design e totalmente responsivos.</p>
+		    </div>
+  			<div class="dev-site2" style="position:fixed; top:100px;margin-left:38%;">
+		    	<h2>Desenvolvimento Mobile</h2>
+		    	<img src="http://williarts.com.br/wp-content/uploads/2015/05/mobile-icon.png"style="width:200px;height:200px;">
+		    	<p style="width:250px;margin-left:30px;">Cria&ccedil;&atilde;o de aplicativos para iPhone, iPad e Android. Aqui suas ideias viram neg&oacute;cios.</p>
+		    </div>
+		    <div class="dev-site2" style="position:fixed; top:100px;margin-left:75%;">
+		    	<h2>Sistemas Web</h2>
+		    	<img src="http://williarts.com.br/wp-content/uploads/2015/05/web-system-icon.png"style="width:200px;height:200px;">
+		    	<p style="width:250px;margin-left:10px;">Criamos sistemas web din&acirc;micos, com o melhor da tecnologia atual, totalmente modularizado e personalizado as necessidades do cliente.</p>
+		    </div>
+		    <div class="dev-site2" style="position:fixed;width:100%;background-color:#091934;height:100px;bottom: 0;">
+		    	<p style="color:#fff;margin-left:30px;margin-top:40px;">N&oacute;s da Blue Orb Safe Solutions valorizamos sua criatividade. Entre em contato e nos conte sua ideia, aqui ela tem valor!</p>
+		    	<!-- <input type="button" value="Fale Conosco">  -->
+
+		    	<input id="btnOrca" type="button" value="Fale Conosco" />
+// 		    	
 		    </div>
 		</div>
 
@@ -72,7 +99,7 @@
 		    	<div class="limite">
 		    		<ul class="lista">
 			    		<?php
-			    			$banco->BuscarProjetos();
+			    			//$banco->BuscarProjetos();
 			    		?>
 			    	</ul>
 		    	</div>
@@ -89,7 +116,7 @@
 		    	<div class="limite">
 		    		<ul class="lista">
 			    		<?php
-		    				$banco->BuscarMembros();
+		    				//$banco->BuscarMembros();
 		    			?>			    		
 			    	</ul>
 		    	</div>

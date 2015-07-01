@@ -80,10 +80,9 @@
 		    </div>
 		    <div class="dev-site2" style="position:fixed;width:100%;background-color:#091934;height:100px;bottom: 0;">
 		    	<p style="color:#fff;margin-left:30px;margin-top:40px;">N&oacute;s da Blue Orb Safe Solutions valorizamos sua criatividade. Entre em contato e nos conte sua ideia, aqui ela tem valor!</p>
-		    	<!-- <input type="button" value="Fale Conosco">  -->
 
 		    	<input id="btnOrca" type="button" value="Fale Conosco" />
-// 		    	
+
 		    </div>
 		</div>
 

@@ -1,4 +1,4 @@
-/* main.css - infoservice */
+﻿/* main.css - infoservice */
 
 
 /**************** HEADER ***************************/
@@ -37,7 +37,7 @@
 	margin-top:-40px;
 	margin-right: 100px;
 	background-color: #ccc;
-	/*box-shadow: #000 1px 1px;*/
+
 	font-family: Helvetica, Arial;
 	font-size: 1.0em;
 }
@@ -49,7 +49,6 @@ h2 {
 	font-size: 1.8em;
 	font-family: Verdana, sans-serif;
 }
-
 .panel {
     position: relative;
     min-height: 110%;

@@ -21,12 +21,25 @@ function tirarAtencao(sender) {
         'color' : '#fff'
     });
 }
-$(function(){
-$("#btnOrca").click(function(){
-    alert("dsadsa");
-});
+// $(function(){
+// $("#btnOrca").click(function(event){
+// var idElemento = $(this).attr(".panel panel-two");
+// var deslocamento = $(idElemento).offset().top;
+//          $("body").animate({scrollTop: deslocamento},'slow');
 
-});
+// });
+// });
+
+// $("a").click(function (event) {
+// 3
+//     event.preventDefault();
+// 4
+//     var idElemento = $(this).attr("href");
+// 5
+//     var deslocamento = $(idElemento).offset().top;
+// 6
+//     $('html, body').animate({ scrollTop: deslocamento }, 'slow');
+// });
 // ****************************************************
 // JAVASCRIPT PARA MANTER O DESIGN COM FOMRATO CASCATA 
 // ****************************************************
